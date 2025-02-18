@@ -9,7 +9,7 @@ flask_cors.CORS(app)
 
 
 # route to print hellow world
-@app.route('/hello')
+@app.route('/')
 def hello():
     return "Hello World"
 
