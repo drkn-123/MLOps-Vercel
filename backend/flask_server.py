@@ -11,7 +11,7 @@ flask_cors.CORS(app)
 # route to print hellow world
 @app.route('/')
 def hello():
-    return "Hello World"
+    return "Hello World - test commit"
 
 
 if __name__ == "__main__":
